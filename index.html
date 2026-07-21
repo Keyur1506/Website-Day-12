@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopIndia | Modern E-Commerce</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+<h2><i class="fa-solid fa-cart-shopping"></i> ShopIndia</h2>
+</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#categories">Categories</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#offers">Offers</a></li>
+<li><a href="#brands">Brands</a></li>
+<li><a href="#reviews">Reviews</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="search-box">
+<input type="text" placeholder="Search Products...">
+<button>
+<i class="fa-solid fa-magnifying-glass"></i>
+</button>
+</div>
+
+<div class="icons">
+<i class="fa-regular fa-heart"></i>
+<i class="fa-solid fa-cart-shopping"></i>
+<i class="fa-solid fa-user"></i>
+</div>
+
+</nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>India's Biggest Online Shopping Store</h1>
+
+<p>
+
+Buy Mobiles, Laptops, Fashion, Electronics and Accessories
+at the best prices with exciting offers.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#products" class="btn">Shop Now</a>
+
+<a href="#offers" class="btn2">Today's Deals</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=900"
+alt="Shopping">
+
+</div>
+
+</section>
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features">
+
+<div class="feature-box">
+
+<i class="fa-solid fa-truck-fast"></i>
+
+<h3>Free Delivery</h3>
+
+<p>On Orders Above ₹999</p>
+
+</div>
+
+<div class="feature-box">
+
+<i class="fa-solid fa-credit-card"></i>
+
+<h3>Secure Payment</h3>
+
+<p>100% Safe Payment</p>
+
+</div>
+
+<div class="feature-box">
+
+<i class="fa-solid fa-rotate-left"></i>
+
+<h3>Easy Returns</h3>
+
+<p>7 Days Return Policy</p>
+
+</div>
+
+<div class="feature-box">
+
+<i class="fa-solid fa-headset"></i>
+
+<h3>24/7 Support</h3>
+
+<p>Always Ready to Help</p>
+
+</div>
+
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories" id="categories">
+
+<h2 class="section-title">Shop By Category</h2>
+
+<div class="category-container">
+
+<div class="category-card">
+<i class="fa-solid fa-mobile-screen-button"></i>
+<h3>Mobiles</h3>
+<p>Latest Smartphones</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-laptop"></i>
+<h3>Laptops</h3>
+<p>Gaming & Office</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-shirt"></i>
+<h3>Fashion</h3>
+<p>Trending Clothes</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-headphones"></i>
+<h3>Accessories</h3>
+<p>Premium Gadgets</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-tv"></i>
+<h3>Electronics</h3>
+<p>Best Electronics</p>
+</div>
+
+<div class="category-card">
+<i class="fa-solid fa-couch"></i>
+<h3>Furniture</h3>
+<p>Home Collection</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= PRODUCTS ================= -->
+
+<section class="products" id="products">
+
+<h2 class="section-title">Featured Products</h2>
+
+<div class="product-container">
+
+<div class="product-card">
+
+<span class="badge">20% OFF</span>
+
+<img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15.jpg"
+alt="iPhone 15">
+
+<h3>Apple iPhone 15</h3>
+
+<div class="rating">
+★★★★★
+</div>
+
+<p class="price">
+₹74,999
+<span>₹79,999</span>
+</p>
+
+<div class="product-buttons">
+
+<button onclick="showPopup()">
+    Add to Cart
+</button>
+
+<button class="buy-btn">Buy Now</button>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<span class="badge">15% OFF</span>
+
+<img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg"
+alt="OnePlus 12">
+
+<h3>OnePlus 12</h3>
+
+<div class="rating">
+★★★★★
+</div>
+
+<p class="price">
+₹54,999
+<span>₹59,999</span>
+</p>
+
+<div class="product-buttons">
+
+<button onclick="showPopup()">
+    Add to Cart
+</button>
+
+<button class="buy-btn">Buy Now</button>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<span class="badge">30% OFF</span>
+
+<img src="https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"
+alt="Gaming Mouse">
+
+<h3>Gaming Mouse</h3>
+
+<div class="rating">
+★★★★☆
+</div>
+
+<p class="price">
+₹1,299
+<span>₹1,899</span>
+</p>
+
+<div class="product-buttons">
+
+<button onclick="showPopup()">
+    Add to Cart
+</button>
+
+<button class="buy-btn">Buy Now</button>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<span class="badge">25% OFF</span>
+
+<img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600"
+alt="Smart Watch">
+
+<h3>Smart Watch</h3>
+
+<div class="rating">
+★★★★★
+</div>
+
+<p class="price">
+₹3,999
+<span>₹5,499</span>
+</p>
+
+<div class="product-buttons">
+
+<button onclick="showPopup()">
+    Add to Cart
+</button>
+
+<button class="buy-btn">Buy Now</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= BEST SELLERS ================= -->
+
+<section class="products">
+
+    <h2 class="section-title">🔥 Best Sellers</h2>
+
+    <div class="product-container">
+
+        <div class="product-card">
+
+            <span class="badge">Hot</span>
+
+            <img src="https://m.media-amazon.com/images/I/71kr3WAj1FL._SX679_.jpg" alt="RGB Mechanical Keyboard">
+
+            <h3>Mechanical Keyboard</h3>
+
+            <div class="rating">★★★★★</div>
+
+            <p class="price">
+                ₹2,999
+                <span>₹3,499</span>
+            </p>
+
+            <div class="product-buttons">
+               <button onclick="showPopup()">
+    Add to Cart
+</button>
+
+        </div>
+
+        <div class="product-card">
+
+            <span class="badge">New</span>
+
+            <img src="https://images.unsplash.com/photo-1589003077984-894e133dabab?w=500" alt="Bluetooth Speaker">               
+            <h3>Bluetooth Speaker</h3>
+
+            <div class="rating">★★★★☆</div>
+
+            <p class="price">
+                ₹2,199
+                <span>₹2,799</span>
+            </p>
+
+            <div class="product-buttons">
+               <button onclick="showPopup()">
+    Add to Cart
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card">
+
+            <span class="badge">Sale</span>
+
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
+                alt="Wireless Headphones">
+
+            <h3>Wireless Headphones</h3>
+
+            <div class="rating">★★★★★</div>
+
+            <p class="price">
+                ₹2,499
+                <span>₹3,299</span>
+            </p>
+
+            <div class="product-buttons">
+               
+
+		<button onclick="showPopup()">	
+		    Add to Cart
+	</button>            
+	</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= DEAL OF THE DAY ================= -->
+
+<section class="offers" id="offers">
+
+    <h2>⚡ Deal of the Day</h2>
+
+    <p>Get Flat <strong>50% OFF</strong> on selected electronic products.</p>
+
+    <div class="deal-box">
+
+      <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=80" alt="Android Smartphone">
+        <div class="deal-content">
+
+            <h3>Samsung Galaxy S24</h3>
+
+            <p>
+
+                Experience flagship performance with AI-powered features,
+                premium camera and smooth AMOLED display.
+
+            </p>
+
+            <h4>₹69,999</h4>
+
+ 	<button onclick="showPopup()">
+    	Add to Cart
+	</button>           
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= LATEST ARRIVALS ================= -->
+
+<section class="products">
+
+<h2 class="section-title">🆕 Latest Arrivals</h2>
+
+<div class="product-container">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600"
+alt="Smartphone">
+
+<h3>Premium Smartphone</h3>
+
+<div class="rating">★★★★★</div>
+
+<p class="price">
+₹49,999
+</p>
+
+<div class="product-buttons">
+<button onclick="showPopup()">
+    Add to Cart
+</button>
+<button class="buy-btn">Buy Now</button>
+</div>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=600&auto=format&fit=crop&q=80" alt="Laptop">
+<h3>Gaming Laptop</h3>
+
+<div class="rating">★★★★★</div>
+
+<p class="price">
+₹89,999
+</p>
+
+<div class="product-buttons">
+<button onclick="showPopup()">
+    Add to Cart
+</button>
+<button class="buy-btn">Buy Now</button>
+</div>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?w=600"
+alt="Power Bank">
+
+<h3>Amazon Alexa</h3>
+
+<div class="rating">★★★★☆</div>
+
+<p class="price">
+₹1,899
+</p>
+
+<div class="product-buttons">
+<button onclick="showPopup()">
+    Add to Cart
+</button>
+<button class="buy-btn">Buy Now</button>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= BRANDS ================= -->
+
+<section class="brands" id="brands">
+
+<h2 class="section-title">Top Brands</h2>
+
+<div class="brand-container">
+
+<div class="brand-card">
+<i class="fa-brands fa-apple"></i>
+<h3>Apple</h3>
+</div>
+
+<div class="brand-card">
+<i class="fa-solid fa-mobile-screen"></i>
+<h3>Samsung</h3>
+</div>
+
+<div class="brand-card">
+<i class="fa-solid fa-bolt"></i>
+<h3>OnePlus</h3>
+</div>
+
+<div class="brand-card">
+<i class="fa-solid fa-laptop"></i>
+<h3>ASUS</h3>
+</div>
+
+<div class="brand-card">
+<i class="fa-solid fa-headphones"></i>
+<h3>boAt</h3>
+</div>
+
+<div class="brand-card">
+<i class="fa-solid fa-tv"></i>
+<h3>Sony</h3>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why-us">
+
+    <h2 class="section-title">Why Choose ShopIndia?</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <i class="fa-solid fa-award"></i>
+            <h3>Premium Quality</h3>
+            <p>All our products are genuine and quality tested before delivery.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-wallet"></i>
+            <h3>Best Prices</h3>
+            <p>Affordable prices with exciting offers and daily discounts.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>100% Secure</h3>
+            <p>Safe shopping with encrypted and secure payment methods.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-star"></i>
+            <h3>Trusted by Customers</h3>
+            <p>Thousands of happy customers shop with us every month.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= OUR SERVICES ================= -->
+
+<section class="services">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="service-container">
+
+<div class="service-card">
+<i class="fa-solid fa-truck-fast"></i>
+<h3>Fast Delivery</h3>
+<p>Delivery across India within 2-5 working days.</p>
+</div>
+
+<div class="service-card">
+<i class="fa-solid fa-credit-card"></i>
+<h3>Secure Payment</h3>
+<p>UPI, Credit Card, Debit Card and Cash on Delivery available.</p>
+</div>
+
+<div class="service-card">
+<i class="fa-solid fa-box-open"></i>
+<h3>Easy Return</h3>
+<p>Return products easily within 7 days.</p>
+</div>
+
+<div class="service-card">
+<i class="fa-solid fa-headset"></i>
+<h3>24×7 Support</h3>
+<p>Our support team is available anytime to help you.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CUSTOMER REVIEWS ================= -->
+
+<section class="reviews" id="reviews">
+
+<h2 class="section-title">Customer Reviews</h2>
+
+<div class="review-container">
+
+<div class="review-card">
+
+<img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul">
+
+<h3>Rahul Sharma</h3>
+
+<div class="rating">
+★★★★★
+</div>
+
+<p>
+
+Excellent quality products.
+Fast delivery and genuine items.
+Highly recommended.
+
+</p>
+
+</div>
+
+<div class="review-card">
+
+<img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya">
+
+<h3>Priya Patel</h3>
+
+<div class="rating">
+★★★★★
+</div>
+
+<p>
+
+Amazing shopping experience.
+Customer support is very helpful.
+
+</p>
+
+</div>
+
+<div class="review-card">
+
+<img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Amit">
+
+<h3>Amit Verma</h3>
+
+<div class="rating">
+★★★★☆
+</div>
+
+<p>
+
+Affordable prices and premium quality products.
+Will shop again.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+<h2>Subscribe to Our Newsletter</h2>
+
+<p>
+
+Get updates about new arrivals,
+exclusive offers and discounts.
+
+</p>
+
+<div class="newsletter-box">
+
+<input type="email" placeholder="Enter your Email">
+
+<button>
+
+Subscribe
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= FAQ ================= -->
+
+<section class="faq">
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-container">
+
+<div class="faq-box">
+<h3>How many days does delivery take?</h3>
+<p>Normally 2–5 business days across India.</p>
+</div>
+
+<div class="faq-box">
+<h3>Do you provide Cash on Delivery?</h3>
+<p>Yes, COD is available on selected products.</p>
+</div>
+
+<div class="faq-box">
+<h3>Can I return my order?</h3>
+<p>Yes, products can be returned within 7 days.</p>
+</div>
+
+<div class="faq-box">
+<h3>Is online payment secure?</h3>
+<p>Yes, all transactions are protected with secure encryption.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<h3>Get in Touch</h3>
+
+<p>
+
+<i class="fa-solid fa-location-dot"></i>
+
+Ahmedabad, Gujarat, India
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-phone"></i>
+
++91 8000747574
+
+</p>
+
+<p>
+
+<i class="fa-solid fa-envelope"></i>
+
+keyurjain15@icloud.com
+
+</p>
+
+</div>
+
+<div class="contact-form">
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<input type="text" placeholder="Subject">
+
+<textarea rows="6" placeholder="Write your message..."></textarea>
+
+<button type="submit">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Add to Cart Popup -->
+
+<div id="cartPopup" class="popup">
+
+    <div class="popup-content">
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        <h2>Added to Cart!</h2>
+
+        <p>Your product has been added successfully.</p>
+
+        <button onclick="closePopup()">OK</button>
+
+    </div>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<h3>ShopIndia</h3>
+
+<p>
+
+India's trusted online shopping destination
+for electronics, fashion and accessories.
+
+</p>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Quick Links</h3>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#categories">Categories</a></li>
+
+<li><a href="#products">Products</a></li>
+
+<li><a href="#offers">Offers</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Follow Us</h3>
+
+<div class="social-icons">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-twitter"></i></a>
+
+<a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+
+© 2026 ShopIndia. All Rights Reserved.
+
+</p>
+
+</footer>
+<script>
+
+function showPopup(){
+
+    document.getElementById("cartPopup").style.display="flex";
+
+}
+
+function closePopup(){
+
+    document.getElementById("cartPopup").style.display="none";
+
+}
+
+</script>
+
+</body>
+
+</html>
