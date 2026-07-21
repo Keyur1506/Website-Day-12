@@ -83,86 +83,91 @@ button,
  HEADER
 ===============================*/
 
+/* HEADER */
 header{
-    width:100%;
-    position:sticky;
-    top:0;
-    z-index:999;
-    background:#fff;
-    box-shadow:0 3px 15px rgba(0,0,0,.08);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    z-index: 1000;
+    box-sizing: border-box;
 }
 
-.navbar{
-
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 8%;
-    gap:20px;
-    flex-wrap:wrap;
+.logo{
+    font-size: 28px;
+    font-weight: bold;
 }
 
-.logo h2{
-    color:#ff6b00;
-    font-size:30px;
+nav{
+    display: flex;
+    gap: 25px;
 }
 
-.nav-links{
-    display:flex;
-    gap:25px;
-    flex-wrap:wrap;
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
 }
 
-.nav-links a{
-
-    color:#333;
-    font-weight:500;
-    transition:.3s;
+nav a:hover{
+    color: orange;
 }
 
-.nav-links a:hover{
-    color:#ff6b00;
+/* Hide Checkbox */
+#menu-toggle{
+    display: none;
 }
 
-.search-box{
-
-    display:flex;
-    align-items:center;
-    background:#f1f1f1;
-    border-radius:50px;
-    overflow:hidden;
+/* Menu Icon */
+.menu-btn{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 
-.search-box input{
+/* Mobile */
+@media (max-width:768px){
 
-    border:none;
-    outline:none;
-    background:transparent;
-    padding:12px 15px;
-    width:220px;
+header{
+    padding:15px 20px;
 }
 
-.search-box button{
-
-    background:#ff6b00;
-    color:#fff;
-    padding:12px 18px;
-}
-
-.icons{
-    display:flex;
-    gap:18px;
+.logo{
     font-size:22px;
 }
 
-.icons i{
-    cursor:pointer;
-    transition:.3s;
+.menu-btn{
+    display:block;
 }
 
-.icons i:hover{
-    color:#ff6b00;
+nav{
+    position:absolute;
+    top:70px;
+    left:0;
+    width:100%;
+    background:#111;
+    display:none;
+    flex-direction:column;
+    text-align:center;
+    padding:20px 0;
+}
+
+nav a{
+    padding:15px;
+    font-size:18px;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+#menu-toggle:checked~nav{
+    display:flex;
+}
+
 }
 
 /*==============================
